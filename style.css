@@ -1,0 +1,79 @@
+body{
+    background-color: rgba(44,62,80,255);
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(92, 174, 92);
+    
+}
+
+#div-add{
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #1A2833;
+    width: 50%;
+    
+}
+
+input{
+    color: white;
+    margin: 15px;
+    background-color: rgba(44,62,80,255);
+    padding: 1%;
+    border: 0cap;
+    border-radius: 5px;
+}
+
+#input-button{
+    color: white;
+    margin: 15px;
+    background-color: green;
+    padding: 1%;
+    border: 0cap;
+    border-radius: 5px;    
+}
+#Status{
+    color: white;
+    margin: 15px;
+    background-color: rgba(44,62,80,255);
+    padding: 1%;
+    border: 0cap;
+    border-radius: 5px; 
+}
+#line-div{
+    background-color: green;
+    height: 3px;
+    width: 95%;
+    margin: 10px;
+}
+
+#div-view-list{
+    width: 100%;
+
+
+}
+table{
+    color: white;
+    width: 100%;
+    
+}
+
+.titleOfTable{
+    font-size: large;
+    color: rgb(206, 16, 16);
+}
+
+.div-of-buttons{
+    display: flex;
+    flex-direction: column;
+}
