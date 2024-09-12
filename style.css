@@ -34,9 +34,9 @@ input{
     border-radius: 5px;
 }
 
-#input-button{
+button{
     color: white;
-    margin: 15px;
+    margin: 3px;
     background-color: green;
     padding: 1%;
     border: 0cap;
@@ -76,4 +76,7 @@ table{
 .div-of-buttons{
     display: flex;
     flex-direction: column;
+}
+table > button{
+    background-color: green;
 }

@@ -76,6 +76,12 @@ function ShowListOnTable(){
                 buttonEdit.innerText = "Edit";
                 
                 amudaButtons.classList.add("div-of-buttons");
+                if(element.Status != "Status"){
+                    amudaButtons.appendChild(buttonRemove)
+                    amudaButtons.appendChild(buttonMission)
+                    amudaButtons.appendChild(buttonEdit)
+                }
+                
 
                 TheColom.appendChild(amudaButtons);
 
